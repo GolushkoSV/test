@@ -1,0 +1,522 @@
+html,
+body {
+
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e113";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e114";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+
+.help-block{
+    font-size: 18px;
+    text-align: center;
+}
+
+.colorful {
+    background-color: #323F51;
+}
+
+.wrap_for_logo{
+    text-align: center;
+    padding-top: 8px;
+    display: block;
+    width: 100%;
+    margin-top: 230px;
+    background: rgba(255,245,215,0.1);
+}
+
+.logo {
+    color: #000000;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 70px;
+    width: 400px;
+    margin: 0 auto;
+    padding-left: 60px;
+    font-family: "BreeSerif-Regular";
+    background: url("../images/logo.png") no-repeat;
+    background-position: 30px 7px;
+}
+.text-admin{
+    margin: 0px;
+    text-align: center;
+    color: #4877B5;
+    letter-spacing: 10px;
+}
+
+
+.form_for_user form{
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 80px;
+    height: 400px;
+}
+
+.form_for_user form input{
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 22px;
+}
+
+
+.form_for_user form .wrap_for_button{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.form_for_user form .wrap_for_button button{
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+
+/*Список администратора - начало*/
+.container{
+    background-color: #EBEFF1;
+    min-height: 100vh;
+}
+
+header{
+    padding: 10px;
+}
+header h3{
+    padding-top: 5px;
+    text-align: right;
+}
+header .line{
+    height: 1px;
+    width: 100%;
+    border: 1px solid #384152;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.my-nav ul>li{
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    display: block;
+}
+
+.my-nav ul>li a{
+    list-style: none;
+    float: left;
+    margin-right:10px;
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: #4877B5
+}
+.my-nav ul>li a:hover{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2A343E;
+}
+
+.active-nav{
+    background-color: #384152;
+    color: #ffffff !important;
+}
+
+.my-nav ul>li:hover{
+    cursor: pointer;
+}
+
+
+
+
+#upload-payments a{
+    padding: 10px;
+    margin-left: 50px;
+}
+#upload-payments a:hover{
+    padding: 10px;
+    margin-left: 50px;
+}
+
+
+.logout a{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #B3B3B1;
+    border-radius: 2px;
+    float: right;
+    margin-right: 50px;
+}
+.logout a:hover{
+    text-decoration: none;
+    background-color: #2A343E;
+    color: #ffffff;
+}
+
+
+.sort{
+    margin-top: 40px;
+}
+
+.sort h4{
+    float: left;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 15px;
+}
+.sort a{
+    display: inline-block;
+    border: 1px solid #B3B3B1;
+
+    border-radius: 5px;
+    font-size: 15px;
+    width: 95px;
+    padding: 2px 10px;
+}
+.sort a:hover{
+    text-decoration: none;
+}
+.pagination{
+    margin-left: 40px;
+}
+
+.list-agents ul{
+    margin-top: 20px;
+}
+
+.list-agents ul>li{
+    list-style: none;
+    border: 1px solid #4877B5;
+    min-width: 600px;
+    display: inline-block;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 0px 10px 0px 10px;
+    margin-top: 10px;
+    padding: 12px 50px 0px 20px ;
+    color: #000000;
+}
+.list-agents ul>li>span{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*Панель администратора - конец*/
+
+
+/*Прелоадер - начало*/
+.wrap_for_preloader{
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.cssload-loader {
+    display: none;
+    position: relative;
+    left: calc(50% - 31px);
+    width: 100px;
+    height: 100px;
+    margin:130px 0;
+    perspective: 780px;
+}
+
+.cssload-inner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+.cssload-one {
+    left: 0%;
+    top: 0%;
+    animation: cssload-rotate-one 1.15s linear infinite;
+    -o-animation: cssload-rotate-one 1.15s linear infinite;
+    -ms-animation: cssload-rotate-one 1.15s linear infinite;
+    -webkit-animation: cssload-rotate-one 1.15s linear infinite;
+    -moz-animation: cssload-rotate-one 1.15s linear infinite;
+    border-bottom: 3px solid #5C5EDC;
+}
+.cssload-two {
+    right: 0%;
+    top: 0%;
+    animation: cssload-rotate-two 1.15s linear infinite;
+    -o-animation: cssload-rotate-two 1.15s linear infinite;
+    -ms-animation: cssload-rotate-two 1.15s linear infinite;
+    -webkit-animation: cssload-rotate-two 1.15s linear infinite;
+    -moz-animation: cssload-rotate-two 1.15s linear infinite;
+    border-right: 3px solid rgba(76, 70, 101, 0.99);
+}
+
+.cssload-three {
+    right: 0%;
+    bottom: 0%;
+    animation: cssload-rotate-three 1.15s linear infinite;
+    -o-animation: cssload-rotate-three 1.15s linear infinite;
+    -ms-animation: cssload-rotate-three 1.15s linear infinite;
+    -webkit-animation: cssload-rotate-three 1.15s linear infinite;
+    -moz-animation: cssload-rotate-three 1.15s linear infinite;
+    border-top: 3px solid rgb(233, 144, 138);;
+}
+
+@keyframes cssload-rotate-one {
+    0% {
+        transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+    }
+    100% {
+        transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+    }
+}
+
+@-o-keyframes cssload-rotate-one {
+    0% {
+        -o-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+    }
+    100% {
+        -o-transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+    }
+}
+
+@-ms-keyframes cssload-rotate-one {
+    0% {
+        -ms-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+    }
+    100% {
+        -ms-transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+    }
+}
+
+@-webkit-keyframes cssload-rotate-one {
+    0% {
+        -webkit-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+    }
+    100% {
+        -webkit-transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+    }
+}
+
+@-moz-keyframes cssload-rotate-one {
+    0% {
+        -moz-transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+    }
+    100% {
+        -moz-transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+    }
+}
+
+@keyframes cssload-rotate-two {
+    0% {
+        transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+    }
+    100% {
+        transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+    }
+}
+
+@-o-keyframes cssload-rotate-two {
+    0% {
+        -o-transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+    }
+    100% {
+        -o-transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+    }
+}
+
+@-ms-keyframes cssload-rotate-two {
+    0% {
+        -ms-transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+    }
+    100% {
+        -ms-transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+    }
+}
+
+@-webkit-keyframes cssload-rotate-two {
+    0% {
+        -webkit-transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+    }
+    100% {
+        -webkit-transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+    }
+}
+
+@-moz-keyframes cssload-rotate-two {
+    0% {
+        -moz-transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+    }
+    100% {
+        -moz-transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+    }
+}
+
+@keyframes cssload-rotate-three {
+    0% {
+        transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+    }
+    100% {
+        transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+    }
+}
+
+@-o-keyframes cssload-rotate-three {
+    0% {
+        -o-transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+    }
+    100% {
+        -o-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+    }
+}
+
+@-ms-keyframes cssload-rotate-three {
+    0% {
+        -ms-transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+    }
+    100% {
+        -ms-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+    }
+}
+
+@-webkit-keyframes cssload-rotate-three {
+    0% {
+        -webkit-transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+    }
+    100% {
+        -webkit-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+    }
+}
+
+@-moz-keyframes cssload-rotate-three {
+    0% {
+        -moz-transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+    }
+    100% {
+        -moz-transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+    }
+}
+/*Прелоадер - конец */

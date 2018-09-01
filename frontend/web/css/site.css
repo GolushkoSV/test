@@ -1,0 +1,292 @@
+html,
+body {
+    font-family: "BreeSerif-Regular";
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e113";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e114";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+/*Форма авторизации Контрагента - начало*/
+
+.help-block{
+    font-size: 18px;
+    text-align: center;
+}
+
+.colorful {
+    background-color: #323F51;
+}
+
+.wrap_for_logo{
+    text-align: center;
+    padding-top: 8px;
+    display: block;
+    width: 100%;
+    margin-top: 230px;
+    background: rgba(255,245,215,0.1);
+}
+
+.logo {
+    color: #000000;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 70px;
+    width: 400px;
+    margin: 0 auto;
+    padding-left: 60px;
+    font-family: "BreeSerif-Regular";
+    background: url("../images/logo.png") no-repeat;
+    background-position: 30px 7px;
+}
+
+
+.form_for_user form{
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 80px;
+    height: 400px;
+}
+
+.form_for_user form input{
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 22px;
+}
+
+
+.form_for_user form .wrap_for_button{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+.form_for_user form .wrap_for_button button{
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+
+/*Форма авторизации Контрагента - конец*/
+
+/*Личный кабинет - начало*/
+.container{
+    background-color: #EBEFF1;
+    min-height: 100vh;
+}
+
+header{
+    padding: 10px;
+}
+header h3{
+    padding-top: 5px;
+    text-align: right;
+}
+header .line{
+    height: 1px;
+    width: 100%;
+    border: 1px solid #384152;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.my-nav ul>li{
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    display: block;
+}
+
+.my-nav ul>li a{
+    list-style: none;
+    float: left;
+    margin-right:10px;
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: #4877B5
+}
+.my-nav ul>li a:hover{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2A343E;
+}
+
+.active-nav{
+    background-color: #384152;
+    color: #ffffff !important;
+}
+
+.my-nav ul>li:hover{
+    cursor: pointer;
+}
+
+
+
+
+#upload-payments a{
+    padding: 10px;
+    margin-left: 50px;
+}
+#upload-payments a:hover{
+    padding: 10px;
+    margin-left: 50px;
+}
+
+
+.logout a{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #B3B3B1;
+    border-radius: 2px;
+    float: right;
+    margin-right: 50px;
+}
+.logout a:hover{
+    text-decoration: none;
+    background-color: #2A343E;
+    color: #ffffff;
+}
+
+
+.sort{
+    margin-top: 40px;
+}
+
+.sort h4{
+    float: left;
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 15px;
+}
+.sort a{
+    display: inline-block;
+    border: 1px solid #B3B3B1;
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 85px;
+}
+.sort a:hover{
+    text-decoration: none;
+}
+.pagination{
+    margin-left: 40px;
+}
+
+.list-agents ul{
+    margin-top: 20px;
+}
+
+.list-agents ul>li{
+    list-style: none;
+    border: 1px solid #4877B5;
+    min-width: 600px;
+    display: inline-block;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 0px 10px 0px 10px;
+    margin-top: 10px;
+    padding: 12px 50px 0px 20px ;
+    color: #000000;
+}
+.list-agents ul>li>span{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/*Панель администратора - конец*/
+
+
+/*Личный кабинет - конец*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
