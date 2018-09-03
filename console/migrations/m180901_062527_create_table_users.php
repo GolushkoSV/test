@@ -16,7 +16,7 @@ class m180901_062527_create_table_users extends Migration
         ]);
         $this->insert('user', [
             'email' => 'goluschko.sergey@yandex.ru',
-            'password' => '50e1fb0e5e390e496754b1f797623dd329d75324',
+            'password' => 'd34f2ac91e613516d99ff76a396e04ea589e16bf',
             'type' => 'admin',
             'score' => 0,
         ]);
